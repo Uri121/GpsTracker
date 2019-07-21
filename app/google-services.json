@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "811470260010",
+    "firebase_url": "https://gps-tracker-f0577.firebaseio.com",
+    "project_id": "gps-tracker-f0577",
+    "storage_bucket": "gps-tracker-f0577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811470260010:android:45fbb1d5cd2a6d1b",
+        "android_client_info": {
+          "package_name": "com.example.gpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811470260010-sbv0pm6osmsiak76dhu5f5f7n4dsa4fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gpstracker",
+            "certificate_hash": "afbeae14d00e1066f652e887cd63b5790646cf19"
+          }
+        },
+        {
+          "client_id": "811470260010-63ivrgrdjrauvrhfme49hrnaiifat54f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtx60kNjHJK60BMoybGPYnaC52HoPlxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811470260010-63ivrgrdjrauvrhfme49hrnaiifat54f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

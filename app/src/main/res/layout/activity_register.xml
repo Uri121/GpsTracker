@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSetUp.Register">
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ImageView
+            android:id="@+id/background_register"
+            android:src="@drawable/background_register"
+            android:transitionName="image_trans"
+            android:layout_marginTop="-70dp"
+            android:layout_marginRight="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ImageView-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:id="@+id/back"-->
+            <!--android:src="@drawable/back_arrow"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp" />-->
+
+        <ImageView
+            android:id="@+id/logo_register"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/map"
+            android:transitionName="logo_trans" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:paddingTop="15dp"
+            android:alpha="0.8"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:layout_width="98dp"
+            android:id="@+id/circleImage1"
+            android:layout_height="98dp" />
+        <EditText
+            android:id="@+id/username1"
+            android:alpha="0.8"
+            android:drawableLeft="@drawable/name_icon"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:alpha="0.8"
+            android:drawableLeft="@drawable/email"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:alpha="0.8"
+            android:drawableLeft="@drawable/lock"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:inputType="textPassword" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi_register"
+            android:layout_gravity="center"
+            app:indicatorColor="@color/black"
+            app:indicatorName="BallPulseIndicator"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_bt"
+        style="@android:style/Widget.Button"
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"
+        android:padding="5dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

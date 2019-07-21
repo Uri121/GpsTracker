@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_joinCircle"
+            android:icon="@drawable/join_circle"
+            android:title="Join Circle" />
+        <item
+            android:id="@+id/nav_myCircle"
+            android:icon="@drawable/my_cirlce"
+            android:title="My Circle" />
+        <item
+            android:title="Share"
+            android:id="@+id/nav_share_Location"
+            android:icon="@drawable/location" />
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/exit"
+            android:title="Sign Out" />
+    </group>
+
+
+
+</menu>
